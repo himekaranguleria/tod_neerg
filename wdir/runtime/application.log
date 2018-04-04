@@ -1,0 +1,3415 @@
+2018/04/04 13:13:52 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:52 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:52 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:52 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:52 [warning] [<h2 style = "color:red;"><b>Request</b></h2>] array
+(
+    'action' => 'site'
+    'controller' => 'index'
+    'post' => array()
+    'get' => array()
+)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (28)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (178)
+in /home/xhw9g931ygvr/public_html/index.php (5)
+2018/04/04 13:13:52 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:52 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:52 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:52 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:52 [warning] [<h2 style = "color:red;"><b>Request</b></h2>] array
+(
+    'action' => 'user'
+    'controller' => 'login'
+    'post' => array()
+    'get' => array()
+)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (28)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (178)
+in /home/xhw9g931ygvr/public_html/protected/controllers/UserController.php (689)
+2018/04/04 13:13:53 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:53 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/basic/slider/core/jquery.js".' in /home/xhw9g931ygvr/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/xhw9g931ygvr/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/basic/sl...')
+#1 /home/xhw9g931ygvr/public_html/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/xhw9g931ygvr/public_html/index.php(5): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/basic/slider/core/jquery.js
+HTTP_REFERER=http://www.flamedevelopers.in/user/login
+---
+2018/04/04 13:13:53 [warning] [<h2 style = "color:red;"><b>Request</b></h2>] array
+(
+    'action' => 'site'
+    'controller' => 'error'
+    'post' => array()
+    'get' => array()
+)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (28)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (178)
+2018/04/04 13:13:53 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:53 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/basic/slider/core/jquery.mobile.js".' in /home/xhw9g931ygvr/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/xhw9g931ygvr/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/basic/sl...')
+#1 /home/xhw9g931ygvr/public_html/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/xhw9g931ygvr/public_html/index.php(5): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/basic/slider/core/jquery.mobile.js
+HTTP_REFERER=http://www.flamedevelopers.in/user/login
+---
+2018/04/04 13:13:53 [warning] [<h2 style = "color:red;"><b>Request</b></h2>] array
+(
+    'action' => 'site'
+    'controller' => 'error'
+    'post' => array()
+    'get' => array()
+)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (28)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (178)
+2018/04/04 13:13:53 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:53 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/basic/slider/core/jquery.js".' in /home/xhw9g931ygvr/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/xhw9g931ygvr/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/basic/sl...')
+#1 /home/xhw9g931ygvr/public_html/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/xhw9g931ygvr/public_html/index.php(5): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/basic/slider/core/jquery.js
+HTTP_REFERER=http://www.flamedevelopers.in/user/login
+---
+2018/04/04 13:13:53 [warning] [<h2 style = "color:red;"><b>Request</b></h2>] array
+(
+    'action' => 'site'
+    'controller' => 'error'
+    'post' => array()
+    'get' => array()
+)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (28)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (178)
+2018/04/04 13:13:53 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:53 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/basic/slider/core/jquery.mobile.js".' in /home/xhw9g931ygvr/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/xhw9g931ygvr/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/basic/sl...')
+#1 /home/xhw9g931ygvr/public_html/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/xhw9g931ygvr/public_html/index.php(5): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/basic/slider/core/jquery.mobile.js
+HTTP_REFERER=http://www.flamedevelopers.in/user/login
+---
+2018/04/04 13:13:53 [warning] [<h2 style = "color:red;"><b>Request</b></h2>] array
+(
+    'action' => 'site'
+    'controller' => 'error'
+    'post' => array()
+    'get' => array()
+)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (28)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (178)
+2018/04/04 13:13:53 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:53 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:53 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:53 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/basic/fonts/fontawesome-webfont.woff2".' in /home/xhw9g931ygvr/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/xhw9g931ygvr/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/basic/fo...')
+#1 /home/xhw9g931ygvr/public_html/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/xhw9g931ygvr/public_html/index.php(5): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/basic/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://www.flamedevelopers.in/themes/basic/css/font-awesome.min.css
+---
+2018/04/04 13:13:53 [warning] [<h2 style = "color:red;"><b>Request</b></h2>] array
+(
+    'action' => 'site'
+    'controller' => 'error'
+    'post' => array()
+    'get' => array
+    (
+        'v' => '4.3.0'
+    )
+)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (28)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (178)
+2018/04/04 13:13:54 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:54 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:54 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:54 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:54 [warning] [<h2 style = "color:red;"><b>Request</b></h2>] array
+(
+    'action' => 'site'
+    'controller' => 'index'
+    'post' => array()
+    'get' => array()
+)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (28)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (178)
+in /home/xhw9g931ygvr/public_html/index.php (5)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:58 [warning] [<h2 style = "color:red;"><b>Request</b></h2>] array
+(
+    'action' => 'user'
+    'controller' => 'login'
+    'post' => array
+    (
+        'LoginForm' => array
+        (
+            'username' => 'admin'
+            'password' => 'admin'
+        )
+        'yt0' => 'Login'
+    )
+    'get' => array()
+)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (28)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (178)
+in /home/xhw9g931ygvr/public_html/protected/controllers/UserController.php (689)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE `t`.`username`=:yp0 LIMIT 1)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE `t`.`username`=:yp0 LIMIT 1)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE `t`.`email`=:yp0 LIMIT 1)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE `t`.`email`=:yp0 LIMIT 1)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT *
+FROM `YiiSession`
+WHERE id=:id)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT *
+FROM `YiiSession`
+WHERE id=:id)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(UPDATE `YiiSession` SET `id`=:id WHERE id=:oldID)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(UPDATE `YiiSession` SET `id`=:id WHERE id=:oldID)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE `t`.`id`=1 LIMIT 1)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE `t`.`id`=1 LIMIT 1)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(UPDATE `tbl_user` SET `last_visit_time`=:yp0 WHERE `tbl_user`.`id`=1)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(UPDATE `tbl_user` SET `last_visit_time`=:yp0 WHERE `tbl_user`.`id`=1)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(UPDATE `tbl_user` SET `last_visit_time`=:yp0 WHERE `tbl_user`.`id`=1)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(UPDATE `tbl_user` SET `last_visit_time`=:yp0 WHERE `tbl_user`.`id`=1)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE `t`.`id`=1 LIMIT 1)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE `t`.`id`=1 LIMIT 1)
+2018/04/04 13:13:58 [warning] [<h2 style = "color:red;"><b>Request</b></h2>] array
+(
+    'action' => 'user'
+    'controller' => 'admin'
+    'post' => array()
+    'get' => array()
+)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (28)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (178)
+in /home/xhw9g931ygvr/public_html/protected/controllers/UserController.php (689)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `tbl_user` `t` WHERE role_id=:ycp0)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `tbl_user` `t` WHERE role_id=:ycp0)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE role_id=:ycp0 LIMIT 10)
+2018/04/04 13:13:58 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE role_id=:ycp0 LIMIT 10)
+2018/04/04 13:13:59 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:59 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:59 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:59 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:59 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:59 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:13:59 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:59 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:13:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/basic/fonts/fontawesome-webfont.woff2".' in /home/xhw9g931ygvr/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/xhw9g931ygvr/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/basic/fo...')
+#1 /home/xhw9g931ygvr/public_html/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/xhw9g931ygvr/public_html/index.php(5): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/basic/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://www.flamedevelopers.in/themes/basic/css/font-awesome.min.css
+---
+2018/04/04 13:13:59 [warning] [<h2 style = "color:red;"><b>Request</b></h2>] array
+(
+    'action' => 'site'
+    'controller' => 'error'
+    'post' => array()
+    'get' => array
+    (
+        'v' => '4.3.0'
+    )
+)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (28)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (178)
+2018/04/04 13:13:59 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE `t`.`id`=1 LIMIT 1)
+2018/04/04 13:13:59 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE `t`.`id`=1 LIMIT 1)
+2018/04/04 13:14:02 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:14:02 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:14:02 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:14:02 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:14:02 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE `t`.`id`=1 LIMIT 1)
+2018/04/04 13:14:02 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE `t`.`id`=1 LIMIT 1)
+2018/04/04 13:14:02 [warning] [<h2 style = "color:red;"><b>Request</b></h2>] array
+(
+    'action' => 'retailer'
+    'controller' => 'admin'
+    'post' => array()
+    'get' => array()
+)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (28)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (178)
+in /home/xhw9g931ygvr/public_html/index.php (5)
+2018/04/04 13:14:02 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `tbl_retailer` `t`)
+2018/04/04 13:14:02 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `tbl_retailer` `t`)
+2018/04/04 13:14:02 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer` `t` LIMIT 10)
+2018/04/04 13:14:02 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer` `t` LIMIT 10)
+2018/04/04 13:14:03 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:14:03 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:14:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:14:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:14:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/basic/fonts/fontawesome-webfont.woff2".' in /home/xhw9g931ygvr/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/xhw9g931ygvr/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/basic/fo...')
+#1 /home/xhw9g931ygvr/public_html/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/xhw9g931ygvr/public_html/index.php(5): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/basic/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://www.flamedevelopers.in/themes/basic/css/font-awesome.min.css
+---
+2018/04/04 13:14:03 [warning] [<h2 style = "color:red;"><b>Request</b></h2>] array
+(
+    'action' => 'site'
+    'controller' => 'error'
+    'post' => array()
+    'get' => array
+    (
+        'v' => '4.3.0'
+    )
+)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (28)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (178)
+2018/04/04 13:14:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE `t`.`id`=1 LIMIT 1)
+2018/04/04 13:14:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE `t`.`id`=1 LIMIT 1)
+2018/04/04 13:14:03 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:14:03 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:14:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:14:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:14:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE `t`.`id`=1 LIMIT 1)
+2018/04/04 13:14:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE `t`.`id`=1 LIMIT 1)
+2018/04/04 13:14:03 [warning] [<h2 style = "color:red;"><b>Request</b></h2>] array
+(
+    'action' => 'wholesaler'
+    'controller' => 'admin'
+    'post' => array()
+    'get' => array()
+)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (28)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (178)
+in /home/xhw9g931ygvr/public_html/index.php (5)
+2018/04/04 13:14:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `tbl_wholesaler` `t`)
+2018/04/04 13:14:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `tbl_wholesaler` `t`)
+2018/04/04 13:14:03 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` LIMIT 10)
+2018/04/04 13:14:03 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` LIMIT 10)
+2018/04/04 13:14:04 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:14:04 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:14:04 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:14:04 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:14:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/basic/fonts/fontawesome-webfont.woff2".' in /home/xhw9g931ygvr/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/xhw9g931ygvr/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/basic/fo...')
+#1 /home/xhw9g931ygvr/public_html/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/xhw9g931ygvr/public_html/index.php(5): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/basic/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://www.flamedevelopers.in/themes/basic/css/font-awesome.min.css
+---
+2018/04/04 13:14:04 [warning] [<h2 style = "color:red;"><b>Request</b></h2>] array
+(
+    'action' => 'site'
+    'controller' => 'error'
+    'post' => array()
+    'get' => array
+    (
+        'v' => '4.3.0'
+    )
+)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (28)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (178)
+2018/04/04 13:14:04 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE `t`.`id`=1 LIMIT 1)
+2018/04/04 13:14:04 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE `t`.`id`=1 LIMIT 1)
+2018/04/04 13:22:02 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:22:02 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:22:02 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:22:02 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:22:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home/xhw9g931ygvr/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/xhw9g931ygvr/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/xhw9g931ygvr/public_html/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/xhw9g931ygvr/public_html/index.php(5): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2018/04/04 13:22:02 [warning] [<h2 style = "color:red;"><b>Request</b></h2>] array
+(
+    'action' => 'site'
+    'controller' => 'error'
+    'post' => array()
+    'get' => array()
+)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (28)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (178)
+2018/04/04 13:50:55 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:50:55 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(DELETE FROM `YiiSession` WHERE expire<:expire)
+2018/04/04 13:50:55 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:50:55 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT `data`
+FROM `YiiSession`
+WHERE expire>:expire AND id=:id)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT *
+FROM `YiiSession`
+WHERE id=:id)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT *
+FROM `YiiSession`
+WHERE id=:id)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(INSERT INTO `YiiSession` (`id`, `expire`, `data`) VALUES (:id, :expire, :data))
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(INSERT INTO `YiiSession` (`id`, `expire`, `data`) VALUES (:id, :expire, :data))
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE `t`.`id`=21 LIMIT 1)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_user` `t` WHERE `t`.`id`=21 LIMIT 1)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.execute] begin:system.db.CDbCommand.execute(UPDATE `tbl_user` SET `last_visit_time`=:yp0 WHERE `tbl_user`.`id`=21)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.execute] end:system.db.CDbCommand.execute(UPDATE `tbl_user` SET `last_visit_time`=:yp0 WHERE `tbl_user`.`id`=21)
+2018/04/04 13:50:56 [warning] [<h2 style = "color:red;"><b>Request</b></h2>] array
+(
+    'action' => 'retailer'
+    'controller' => 'myretail'
+    'post' => array()
+    'get' => array()
+)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (28)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (178)
+in /home/xhw9g931ygvr/public_html/index.php (5)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer` `t` WHERE create_user_id =:ycp0)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer` `t` WHERE create_user_id =:ycp0)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp1)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp1)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp2)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp2)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp3)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp3)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp4)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp4)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp5)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp5)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp6)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp6)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp7)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp7)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp8)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp8)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp9)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp9)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp10)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp10)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp11)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp11)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp12)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp12)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp13)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp13)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp14)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp14)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp15)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp15)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp16)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp16)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp17)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp17)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp18)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp18)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp19)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp19)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp20)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp20)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp21)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp21)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp22)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp22)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp23)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp23)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp24)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp24)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp25)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp25)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp26)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp26)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp27)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp27)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp28)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp28)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp29)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp29)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp30)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp30)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp31)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp31)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp32)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp32)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp33)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp33)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp34)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp34)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp35)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp35)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp36)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp36)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp37)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp37)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp38)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp38)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp39)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp39)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp40)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp40)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp41)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp41)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp42)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp42)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp43)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp43)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp44)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp44)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp45)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp45)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp46)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp46)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp47)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp47)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp48)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp48)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp49)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp49)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp50)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp50)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp51)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp51)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp52)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp52)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp53)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp53)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp54)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp54)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp55)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp55)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp56)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp56)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp57)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp57)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp58)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp58)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp59)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp59)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp60)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp60)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp61)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp61)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp62)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp62)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp63)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp63)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp64)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp64)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp65)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp65)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp66)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp66)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp67)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp67)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp68)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp68)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp69)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp69)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp70)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp70)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp71)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp71)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp72)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp72)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp73)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp73)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp74)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp74)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp75)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp75)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp76)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp76)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp77)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp77)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp78)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp78)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp79)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp79)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp80)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp80)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp81)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp81)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp82)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp82)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp83)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp83)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp84)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp84)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp85)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp85)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp86)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp86)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp87)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp87)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp88)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp88)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp89)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp89)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp90)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp90)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp91)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp91)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp92)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp92)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp93)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_retailer_wholesaler` `t` WHERE retailer_id =:ycp93)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp94)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp94)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] begin:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp95)
+2018/04/04 13:50:56 [profile] [system.db.CDbCommand.query] end:system.db.CDbCommand.query(SELECT * FROM `tbl_wholesaler` `t` WHERE id =:ycp95)
+2018/04/04 13:50:56 [warning] [<h2 style = "color:Green;"><b>Reponse</b></h2>] array
+(
+    'controller' => 'retailer'
+    'action' => 'myretail'
+    'status' => 'OK'
+    'list' => array
+    (
+        0 => array
+        (
+            'id' => '35'
+            'name' => 'Retailer K'
+            'address' => '11 phase mohali punjab 160062'
+            'street' => '11 phase mohali'
+            'city' => 'punjab'
+            'zip_code' => '160062'
+            'phone_no' => '8894054847'
+            'fax_no' => '8894054847'
+            'mobile_no' => '8894054847'
+            'image_file' => ''
+            'm_type_1' => '1'
+            'm_type_2' => '1'
+            'm_type_3' => '0'
+            'm_weight_1' => '10'
+            'm_weight_2' => '19'
+            'm_weight_3' => '0'
+            'data_dn' => '19.9.1984'
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '30.6802'
+            'long' => '76.7457'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '22'
+                    'retailer_id' => '35'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '23'
+                    'retailer_id' => '35'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+                2 => array
+                (
+                    'id' => '24'
+                    'retailer_id' => '35'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                3 => array
+                (
+                    'id' => '25'
+                    'retailer_id' => '35'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        1 => array
+        (
+            'id' => '44'
+            'name' => 'verka'
+            'address' => '11 phase  mohali 160062'
+            'street' => '11 phase '
+            'city' => 'mohali'
+            'zip_code' => '160062'
+            'phone_no' => ''
+            'fax_no' => ''
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => '19.9.1984'
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '30.6802'
+            'long' => '76.7457'
+        )
+        2 => array
+        (
+            'id' => '49'
+            'name' => 'verka 1'
+            'address' => '11 phase  Una 177208'
+            'street' => '11 phase '
+            'city' => 'Una'
+            'zip_code' => '177208'
+            'phone_no' => ''
+            'fax_no' => ''
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => '19.9.1984'
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '0'
+            'long' => '0'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '20'
+                    'retailer_id' => '49'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '21'
+                    'retailer_id' => '49'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        3 => array
+        (
+            'id' => '50'
+            'name' => 'verka 1'
+            'address' => '11 phase  Una 177208'
+            'street' => '11 phase '
+            'city' => 'Una'
+            'zip_code' => '177208'
+            'phone_no' => ''
+            'fax_no' => ''
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => '19.9.1984'
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '0'
+            'long' => '0'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '26'
+                    'retailer_id' => '50'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '27'
+                    'retailer_id' => '50'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        4 => array
+        (
+            'id' => '51'
+            'name' => 'verka 1'
+            'address' => '11 phase  Una 177208'
+            'street' => '11 phase '
+            'city' => 'Una'
+            'zip_code' => '177208'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '30.4962'
+            'long' => '-92.441'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '28'
+                    'retailer_id' => '51'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '29'
+                    'retailer_id' => '51'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        5 => array
+        (
+            'id' => '52'
+            'name' => 'verka 1'
+            'address' => '11 phase  Una 177208'
+            'street' => '11 phase '
+            'city' => 'Una'
+            'zip_code' => '177208'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '2'
+            'lat' => '0'
+            'long' => '0'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '30'
+                    'retailer_id' => '52'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '31'
+                    'retailer_id' => '52'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        6 => array
+        (
+            'id' => '53'
+            'name' => 'verka 1'
+            'address' => '11 phase  Una 177208'
+            'street' => '11 phase '
+            'city' => 'Una'
+            'zip_code' => '177208'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '2'
+            'lat' => '0'
+            'long' => '0'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '32'
+                    'retailer_id' => '53'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '33'
+                    'retailer_id' => '53'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        7 => array
+        (
+            'id' => '54'
+            'name' => 'verka 1'
+            'address' => '11 phase  Una 177208'
+            'street' => '11 phase '
+            'city' => 'Una'
+            'zip_code' => '177208'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '2'
+            'lat' => '30.4962'
+            'long' => '-92.441'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '34'
+                    'retailer_id' => '54'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '35'
+                    'retailer_id' => '54'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        8 => array
+        (
+            'id' => '55'
+            'name' => 'verka 1'
+            'address' => '11 phase  Una 177208'
+            'street' => '11 phase '
+            'city' => 'Una'
+            'zip_code' => '177208'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '2'
+            'lat' => '30.4962'
+            'long' => '-92.441'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '36'
+                    'retailer_id' => '55'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '37'
+                    'retailer_id' => '55'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        9 => array
+        (
+            'id' => '56'
+            'name' => 'verka 1'
+            'address' => '11 phase  Una 177208'
+            'street' => '11 phase '
+            'city' => 'Una'
+            'zip_code' => '177208'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '2'
+            'lat' => '30.4962'
+            'long' => '-92.441'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '38'
+                    'retailer_id' => '56'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '39'
+                    'retailer_id' => '56'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        10 => array
+        (
+            'id' => '57'
+            'name' => 'verka 1'
+            'address' => '11 phase  Una 177208'
+            'street' => '11 phase '
+            'city' => 'Una'
+            'zip_code' => '177208'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '2'
+            'lat' => '30.4962'
+            'long' => '-92.441'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '40'
+                    'retailer_id' => '57'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '41'
+                    'retailer_id' => '57'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        11 => array
+        (
+            'id' => '58'
+            'name' => 'verka asdasdas'
+            'address' => '11 phase  Una 2177208'
+            'street' => '11 phase '
+            'city' => 'Una'
+            'zip_code' => '2177208'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '2'
+            'lat' => '30.1591'
+            'long' => '-92.0474'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '42'
+                    'retailer_id' => '58'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '43'
+                    'retailer_id' => '58'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        12 => array
+        (
+            'id' => '59'
+            'name' => 'verka asdasdas'
+            'address' => '11 phase  Una 2177208'
+            'street' => '11 phase '
+            'city' => 'Una'
+            'zip_code' => '2177208'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '2'
+            'lat' => '30.1591'
+            'long' => '-92.0474'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '44'
+                    'retailer_id' => '59'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '45'
+                    'retailer_id' => '59'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        13 => array
+        (
+            'id' => '60'
+            'name' => 'Australia'
+            'address' => 'null, Ghan  Northern 0872'
+            'street' => 'null, Ghan '
+            'city' => 'Northern'
+            'zip_code' => '872'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '0'
+            'long' => '0'
+        )
+        14 => array
+        (
+            'id' => '61'
+            'name' => 'Australia'
+            'address' => 'null, Ghan  Northern 0872'
+            'street' => 'null, Ghan '
+            'city' => 'Northern'
+            'zip_code' => '872'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '0'
+            'long' => '0'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '47'
+                    'retailer_id' => '61'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '48'
+                    'retailer_id' => '61'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        15 => array
+        (
+            'id' => '63'
+            'name' => 'Australia'
+            'address' => 'null, Ghan  Northern 0872'
+            'street' => 'null, Ghan '
+            'city' => 'Northern'
+            'zip_code' => '872'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '0'
+            'long' => '0'
+        )
+        16 => array
+        (
+            'id' => '64'
+            'name' => 'Australia'
+            'address' => 'null, Ghan  Northern 0872'
+            'street' => 'null, Ghan '
+            'city' => 'Northern'
+            'zip_code' => '872'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '0'
+            'long' => '0'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '51'
+                    'retailer_id' => '64'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '52'
+                    'retailer_id' => '64'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        17 => array
+        (
+            'id' => '65'
+            'name' => 'VGP Golden Beach Resort'
+            'address' => 'null, Injambakkam Tamil Nadu 600115'
+            'street' => 'null, Injambakkam'
+            'city' => 'Tamil Nadu'
+            'zip_code' => '600115'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '0'
+            'long' => '0'
+        )
+        18 => array
+        (
+            'id' => '66'
+            'name' => 'VGP Golden Beach Resort'
+            'address' => 'null, Injambakkam Tamil Nadu 600115'
+            'street' => 'null, Injambakkam'
+            'city' => 'Tamil Nadu'
+            'zip_code' => '600115'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '0'
+            'long' => '0'
+        )
+        19 => array
+        (
+            'id' => '67'
+            'name' => 'verka 1'
+            'address' => '11 phase  Una 177208'
+            'street' => '11 phase '
+            'city' => 'Una'
+            'zip_code' => '177208'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '2'
+            'lat' => '30.1591'
+            'long' => '-92.0474'
+        )
+        20 => array
+        (
+            'id' => '68'
+            'name' => 'Australia'
+            'address' => 'null, Ghan  Northern 0872'
+            'street' => 'null, Ghan '
+            'city' => 'Northern'
+            'zip_code' => '872'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '0'
+            'long' => '0'
+        )
+        21 => array
+        (
+            'id' => '69'
+            'name' => 'Australia'
+            'address' => 'null, Ghan  Northern 0872'
+            'street' => 'null, Ghan '
+            'city' => 'Northern'
+            'zip_code' => '872'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '0'
+            'long' => '0'
+        )
+        22 => array
+        (
+            'id' => '70'
+            'name' => 'Australia'
+            'address' => 'null, Ghan  Northern 0872'
+            'street' => 'null, Ghan '
+            'city' => 'Northern'
+            'zip_code' => '872'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '0'
+            'long' => '0'
+        )
+        23 => array
+        (
+            'id' => '71'
+            'name' => 'Australia'
+            'address' => 'null, Ghan  Northern 0872'
+            'street' => 'null, Ghan '
+            'city' => 'Northern'
+            'zip_code' => '872'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '0'
+            'long' => '0'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '59'
+                    'retailer_id' => '71'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '60'
+                    'retailer_id' => '71'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        24 => array
+        (
+            'id' => '72'
+            'name' => 'VGP Golden Beach Resort'
+            'address' => 'Injambakkam Tamil Nadu 600115'
+            'street' => 'Injambakkam'
+            'city' => 'Tamil Nadu'
+            'zip_code' => '600115'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '12.9198'
+            'long' => '80.2511'
+        )
+        25 => array
+        (
+            'id' => '73'
+            'name' => 'VGP Golden Beach Resort'
+            'address' => 'Injambakkam Tamil Nadu 600115'
+            'street' => 'Injambakkam'
+            'city' => 'Tamil Nadu'
+            'zip_code' => '600115'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '12.9198'
+            'long' => '80.2511'
+        )
+        26 => array
+        (
+            'id' => '74'
+            'name' => 'verka'
+            'address' => '11 phase  mohali 160062'
+            'street' => '11 phase '
+            'city' => 'mohali'
+            'zip_code' => '160062'
+            'phone_no' => ''
+            'fax_no' => ''
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => '19.9.1984'
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '0'
+            'long' => '0'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '63'
+                    'retailer_id' => '74'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '64'
+                    'retailer_id' => '74'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        27 => array
+        (
+            'id' => '75'
+            'name' => 'VGP Golden Beach Resort'
+            'address' => 'Injambakkam Tamil Nadu 600115'
+            'street' => 'Injambakkam'
+            'city' => 'Tamil Nadu'
+            'zip_code' => '600115'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '0'
+            'long' => '0'
+        )
+        28 => array
+        (
+            'id' => '76'
+            'name' => 'United States'
+            'address' => 'Estate Enighed, 5000 Kansas 67301'
+            'street' => 'Estate Enighed, 5000'
+            'city' => 'Kansas'
+            'zip_code' => '67301'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '0'
+            'long' => '0'
+        )
+        29 => array
+        (
+            'id' => '77'
+            'name' => 'United States'
+            'address' => 'Estate Enighed, 5000 Kansas 67301'
+            'street' => 'Estate Enighed, 5000'
+            'city' => 'Kansas'
+            'zip_code' => '67301'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '0'
+            'long' => '0'
+        )
+        30 => array
+        (
+            'id' => '78'
+            'name' => 'Delhi'
+            'address' => 'Srinagar - Kanyakumari Highway, Srinagar - Kanyakumari Highway Delhi 110054'
+            'street' => 'Srinagar - Kanyakumari Highway, Srinagar - Kanyakumari Highway'
+            'city' => 'Delhi'
+            'zip_code' => '110054'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '0'
+            'long' => '0'
+        )
+        31 => array
+        (
+            'id' => '79'
+            'name' => 'Arizona'
+            'address' => 'RR 29, 85554 Arizona 85554'
+            'street' => 'RR 29, 85554'
+            'city' => 'Arizona'
+            'zip_code' => '85554'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '33.9466'
+            'long' => '-110.951'
+        )
+        32 => array
+        (
+            'id' => '80'
+            'name' => 'verka'
+            'address' => '11 phase  mohali 160062'
+            'street' => '11 phase '
+            'city' => 'mohali'
+            'zip_code' => '160062'
+            'phone_no' => ''
+            'fax_no' => ''
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => '19.9.1984'
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '30.6802'
+            'long' => '76.7457'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '70'
+                    'retailer_id' => '80'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '71'
+                    'retailer_id' => '80'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        33 => array
+        (
+            'id' => '81'
+            'name' => 'verka 1'
+            'address' => '11 phase  Una 177208'
+            'street' => '11 phase '
+            'city' => 'Una'
+            'zip_code' => '177208'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '2'
+            'lat' => '30.1591'
+            'long' => '-92.0474'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '72'
+                    'retailer_id' => '81'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '73'
+                    'retailer_id' => '81'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        34 => array
+        (
+            'id' => '82'
+            'name' => 'verka'
+            'address' => '11 phase  mohali 160062'
+            'street' => '11 phase '
+            'city' => 'mohali'
+            'zip_code' => '160062'
+            'phone_no' => ''
+            'fax_no' => ''
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => '19.9.1984'
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '30.6802'
+            'long' => '76.7457'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '74'
+                    'retailer_id' => '82'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '75'
+                    'retailer_id' => '82'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        35 => array
+        (
+            'id' => '83'
+            'name' => 'Arizona'
+            'address' => '85554 Arizona 85554'
+            'street' => '85554'
+            'city' => 'Arizona'
+            'zip_code' => '85554'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '2'
+            'lat' => '33.9466'
+            'long' => '-110.951'
+        )
+        36 => array
+        (
+            'id' => '84'
+            'name' => 'verka'
+            'address' => '11 phase  mohali 160062'
+            'street' => '11 phase '
+            'city' => 'mohali'
+            'zip_code' => '160062'
+            'phone_no' => ''
+            'fax_no' => ''
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => '19.9.1984'
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '30.6802'
+            'long' => '76.7457'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '77'
+                    'retailer_id' => '84'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '78'
+                    'retailer_id' => '84'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        37 => array
+        (
+            'id' => '85'
+            'name' => 'verka'
+            'address' => '11 phase  mohali 160062'
+            'street' => '11 phase '
+            'city' => 'mohali'
+            'zip_code' => '160062'
+            'phone_no' => ''
+            'fax_no' => ''
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => '19.9.1984'
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '30.6802'
+            'long' => '76.7457'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '79'
+                    'retailer_id' => '85'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '80'
+                    'retailer_id' => '85'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        38 => array
+        (
+            'id' => '86'
+            'name' => 'Arizona'
+            'address' => '85554 Arizona 85554'
+            'street' => '85554'
+            'city' => 'Arizona'
+            'zip_code' => '85554'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '0'
+            'long' => '0'
+        )
+        39 => array
+        (
+            'id' => '87'
+            'name' => 'Arizona'
+            'address' => '85554 Arizona 85554'
+            'street' => '85554'
+            'city' => 'Arizona'
+            'zip_code' => '85554'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '33.9466'
+            'long' => '-110.951'
+        )
+        40 => array
+        (
+            'id' => '88'
+            'name' => 'Arizona'
+            'address' => '85554 Arizona 85554'
+            'street' => '85554'
+            'city' => 'Arizona'
+            'zip_code' => '85554'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '33.9466'
+            'long' => '-110.951'
+        )
+        41 => array
+        (
+            'id' => '89'
+            'name' => 'Arizona'
+            'address' => '11 phase  mohali 160062'
+            'street' => '11 phase '
+            'city' => 'mohali'
+            'zip_code' => '160062'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '30.6802'
+            'long' => '76.7457'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '84'
+                    'retailer_id' => '89'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '85'
+                    'retailer_id' => '89'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        42 => array
+        (
+            'id' => '90'
+            'name' => 'Arizona'
+            'address' => '11 phase  mohali 160062'
+            'street' => '11 phase '
+            'city' => 'mohali'
+            'zip_code' => '160062'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '30.6802'
+            'long' => '76.7457'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '86'
+                    'retailer_id' => '90'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '87'
+                    'retailer_id' => '90'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+        43 => array
+        (
+            'id' => '91'
+            'name' => 'Arizona'
+            'address' => '11 phase  mohali 160062'
+            'street' => '11 phase '
+            'city' => 'mohali'
+            'zip_code' => '160062'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '30.6802'
+            'long' => '76.7457'
+        )
+        44 => array
+        (
+            'id' => '92'
+            'name' => 'Arizona'
+            'address' => '85554 Arizona 85554'
+            'street' => '85554'
+            'city' => 'Arizona'
+            'zip_code' => '85554'
+            'phone_no' => ''
+            'fax_no' => null
+            'mobile_no' => ''
+            'image_file' => ''
+            'm_type_1' => '0'
+            'm_type_2' => '0'
+            'm_type_3' => '0'
+            'm_weight_1' => '0'
+            'm_weight_2' => '0'
+            'm_weight_3' => '0'
+            'data_dn' => ''
+            'state_id' => '1'
+            'type_id' => '1'
+            'lat' => '0'
+            'long' => '0'
+            'wholesalers' => array
+            (
+                0 => array
+                (
+                    'id' => '89'
+                    'retailer_id' => '92'
+                    'wholesaler_id' => '4'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '4'
+                            'name' => 'Karan Singh'
+                            'address' => '11 phase mohali punjab 160062'
+                            'street' => '11 phase mohali'
+                            'city' => 'punjab'
+                            'zip_code' => '160062'
+                            'phone_no' => '8894054847'
+                            'image_file' => 'http://www.flamedevelopers.in/wdir/uploads/Wholesaler-1522341960-image_file.jpg'
+                            'm_type_1' => '1'
+                            'm_type_2' => '1'
+                            'm_type_3' => '1'
+                            'q_1' => '1'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '10'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '30.6802'
+                            'long' => '76.7457'
+                        )
+                    )
+                )
+                1 => array
+                (
+                    'id' => '90'
+                    'retailer_id' => '92'
+                    'wholesaler_id' => '5'
+                    'wholesaler_info' => array
+                    (
+                        0 => array
+                        (
+                            'id' => '5'
+                            'name' => 'Großhändler'
+                            'address' => 'panjawar  una 177208'
+                            'street' => 'panjawar '
+                            'city' => 'una'
+                            'zip_code' => '177208'
+                            'phone_no' => '8894054847'
+                            'image_file' => ''
+                            'm_type_1' => '0'
+                            'm_type_2' => '1'
+                            'm_type_3' => '0'
+                            'q_1' => '0'
+                            'q_2' => '1'
+                            'q_3' => '0'
+                            'q_4' => '0'
+                            'temp' => '50'
+                            'state_id' => '0'
+                            'type_id' => '0'
+                            'lat' => '45.77'
+                            'long' => '30.6802'
+                        )
+                    )
+                )
+            )
+        )
+    )
+)
+in /home/xhw9g931ygvr/public_html/protected/components/Controller.php (28)
+in /home/xhw9g931ygvr/public_html/protected/modules/api/components/ApiGxController.php (16)
+in /home/xhw9g931ygvr/public_html/protected/modules/api/controllers/RetailerController.php (299)

@@ -1,0 +1,151 @@
+body {
+    background:#00883D;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color:#000;
+}
+
+/*==================button==============*/
+.btn {
+    border-radius:2px;
+}
+.btn-get {
+    background: #108c74 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 22px;
+    min-height: 45px;
+    min-width: 265px;
+}
+.btn-primary {
+    background:#dbae55;
+    border:1px solid #dbae55;
+    font-size:16px;
+}
+.btn-primary:hover,.btn-primary:focus {
+    background: #dbae55 none repeat scroll 0 0;
+    border: 1px solid #dbae55;
+    box-shadow: 0 1px 2px #000;
+
+}
+
+/*==================button==============*/
+
+
+.form-control {
+    box-shadow:none;
+    min-height:45px;
+    border-radius:2px;
+}
+
+/*==================navigation==============*/
+
+
+.navbar-static-top {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+}
+.navbar-brand {
+    color: #4d4d4d;
+    font-size: 25px;
+    font-weight: 500;
+}
+.nav.navbar-nav.navbar-right a {
+    color: #4d4d4d;
+    font-size: 16px;
+}
+.nav.navbar-nav li a:hover, .nav.navbar-nav li a:focus  {
+    background:#108C74;
+    color: #fff;
+}
+/*==================end naviogation==============*/
+
+/*==================banner start==============*/
+.banner-container {
+    background: url("../images/bg-img.jpeg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    min-height:550px;
+    max-height:550px;
+    overflow:hidden;
+    position:relative;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.carousel-caption {
+    top: 24%;
+}
+.carousel-caption h1 {
+    font-size:68px;
+    margin: 30px 0;
+}
+/*==================banner end==============*/
+
+/*==================footer==============*/
+
+.footer {
+    display:none;
+    position:fixed;
+    background: #444 none repeat scroll 0 0;
+    color: #fff;
+    padding: 10px;
+    text-align:center;
+    width: 100%
+}
+.footer .text-center.copy > a {
+    color: #108c74;
+}
+header{
+    display: none;
+}
+/*==================footer==============*/
+
+/*==================login==============*/
+.login-inner {
+   margin: 50px 0;
+    padding: 20px;
+}
+.login-title {
+    border-bottom: 1px solid #ddd;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0 0 25px;
+    padding-bottom: 11px;
+}
+.login-icons {
+    position:relative;
+}
+.login-icons i {
+    color: #ccc;
+    font-size: 20px;
+    left: 12px;
+    position: absolute;
+    top: 12px;
+}
+.login-inner .form-control:focus {
+    border-color: #108C74;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(16, 140, 16, 0.6);
+    outline: 0 none;
+}
+.login-inner .form-control {
+    font-size: 16px;
+    padding-left:40px;
+}
+.login-inner .checkbox {
+    margin:0;
+}
+.login-inner .login-btn {
+    min-height :45px;
+    font-size:16px;
+    font-weight: 500;
+    margin-left: auto;
+margin-right: auto;
+width: 50%!important;
+}
+
+/*==================login==============*/
